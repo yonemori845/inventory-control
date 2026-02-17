@@ -1,0 +1,124 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v25.1.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\akira\AICoding\lectures\最終課題\Inventory_Control_2\.npmrc
+5 silly config load:file:C:\Users\akira\.npmrc
+6 silly config load:file:C:\Users\akira\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm" "--prefer-offline" "false"
+9 verbose logfile logs-max:10 dir:C:\Users\akira\AICoding\lectures\最終課題\Inventory_Control_2\.npm\_logs\2026-01-24T12_21_59_603Z-
+10 verbose logfile C:\Users\akira\AICoding\lectures\最終課題\Inventory_Control_2\.npm\_logs\2026-01-24T12_21_59_603Z-debug-0.log
+11 silly logfile done cleaning log files
+12 http fetch GET https://registry.npmjs.org/npm attempt 1 failed with ECONNREFUSED
+13 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+14 silly idealTree buildDeps
+15 silly fetch manifest next@^14.2.0
+16 silly packumentCache full:https://registry.npmjs.org/next cache-miss
+17 silly fetch manifest react@^18.3.0
+18 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+19 silly fetch manifest react-dom@^18.3.0
+20 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+21 silly fetch manifest typescript@^5.4.0
+22 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+23 silly fetch manifest @types/node@^20.11.0
+24 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+25 silly fetch manifest @types/react@^18.3.0
+26 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+27 silly fetch manifest @types/react-dom@^18.3.0
+28 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom cache-miss
+29 silly fetch manifest next-auth@^5.0.0-beta.4
+30 silly packumentCache full:https://registry.npmjs.org/next-auth cache-miss
+31 silly fetch manifest @auth/core@^0.37.0
+32 silly packumentCache full:https://registry.npmjs.org/@auth%2fcore cache-miss
+33 silly fetch manifest googleapis@^129.0.0
+34 silly packumentCache full:https://registry.npmjs.org/googleapis cache-miss
+35 silly fetch manifest google-spreadsheet@^4.1.0
+36 silly packumentCache full:https://registry.npmjs.org/google-spreadsheet cache-miss
+37 silly fetch manifest @zxing/library@^0.20.0
+38 silly packumentCache full:https://registry.npmjs.org/@zxing%2flibrary cache-miss
+39 silly fetch manifest recharts@^2.12.0
+40 silly packumentCache full:https://registry.npmjs.org/recharts cache-miss
+41 silly fetch manifest zustand@^4.5.0
+42 silly packumentCache full:https://registry.npmjs.org/zustand cache-miss
+43 silly fetch manifest @tanstack/react-query@^5.28.0
+44 silly packumentCache full:https://registry.npmjs.org/@tanstack%2freact-query cache-miss
+45 silly fetch manifest next-pwa@^5.6.0
+46 silly packumentCache full:https://registry.npmjs.org/next-pwa cache-miss
+47 silly fetch manifest tailwindcss@^3.4.0
+48 silly packumentCache full:https://registry.npmjs.org/tailwindcss cache-miss
+49 silly fetch manifest autoprefixer@^10.4.0
+50 silly packumentCache full:https://registry.npmjs.org/autoprefixer cache-miss
+51 silly fetch manifest postcss@^8.4.0
+52 silly packumentCache full:https://registry.npmjs.org/postcss cache-miss
+53 silly fetch manifest clsx@^2.1.0
+54 silly packumentCache full:https://registry.npmjs.org/clsx cache-miss
+55 silly fetch manifest tailwind-merge@^2.2.0
+56 silly packumentCache full:https://registry.npmjs.org/tailwind-merge cache-miss
+57 silly fetch manifest class-variance-authority@^0.7.0
+58 silly packumentCache full:https://registry.npmjs.org/class-variance-authority cache-miss
+59 silly fetch manifest lucide-react@^0.344.0
+60 silly packumentCache full:https://registry.npmjs.org/lucide-react cache-miss
+61 silly fetch manifest @radix-ui/react-slot@^1.0.2
+62 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-slot cache-miss
+63 silly fetch manifest eslint@^8.57.0
+64 silly packumentCache full:https://registry.npmjs.org/eslint cache-miss
+65 silly fetch manifest eslint-config-next@^14.2.0
+66 silly packumentCache full:https://registry.npmjs.org/eslint-config-next cache-miss
+67 silly fetch manifest @typescript-eslint/eslint-plugin@^7.0.0
+68 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2feslint-plugin cache-miss
+69 silly fetch manifest @typescript-eslint/parser@^7.0.0
+70 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fparser cache-miss
+71 silly fetch manifest prettier@^3.2.0
+72 silly packumentCache full:https://registry.npmjs.org/prettier cache-miss
+73 silly placeDep ROOT @auth/core@ OK for: inventory-control-2@0.1.0 want: ^0.37.0
+74 silly placeDep ROOT @radix-ui/react-slot@ OK for: inventory-control-2@0.1.0 want: ^1.0.2
+75 silly placeDep ROOT @tanstack/react-query@ OK for: inventory-control-2@0.1.0 want: ^5.28.0
+76 silly placeDep ROOT @types/node@ OK for: inventory-control-2@0.1.0 want: ^20.11.0
+77 silly placeDep ROOT @types/react@ OK for: inventory-control-2@0.1.0 want: ^18.3.0
+78 silly placeDep ROOT @types/react-dom@ OK for: inventory-control-2@0.1.0 want: ^18.3.0
+79 silly placeDep ROOT @typescript-eslint/eslint-plugin@ OK for: inventory-control-2@0.1.0 want: ^7.0.0
+80 silly placeDep ROOT @typescript-eslint/parser@ OK for: inventory-control-2@0.1.0 want: ^7.0.0
+81 silly placeDep ROOT @zxing/library@ OK for: inventory-control-2@0.1.0 want: ^0.20.0
+82 silly placeDep ROOT autoprefixer@ OK for: inventory-control-2@0.1.0 want: ^10.4.0
+83 silly placeDep ROOT class-variance-authority@ OK for: inventory-control-2@0.1.0 want: ^0.7.0
+84 silly placeDep ROOT clsx@ OK for: inventory-control-2@0.1.0 want: ^2.1.0
+85 silly placeDep ROOT eslint@ OK for: inventory-control-2@0.1.0 want: ^8.57.0
+86 silly placeDep ROOT eslint-config-next@ OK for: inventory-control-2@0.1.0 want: ^14.2.0
+87 silly placeDep ROOT google-spreadsheet@ OK for: inventory-control-2@0.1.0 want: ^4.1.0
+88 silly placeDep ROOT googleapis@ OK for: inventory-control-2@0.1.0 want: ^129.0.0
+89 silly placeDep ROOT lucide-react@ OK for: inventory-control-2@0.1.0 want: ^0.344.0
+90 silly placeDep ROOT next@ OK for: inventory-control-2@0.1.0 want: ^14.2.0
+91 silly placeDep ROOT next-auth@ OK for: inventory-control-2@0.1.0 want: ^5.0.0-beta.4
+92 silly placeDep ROOT next-pwa@ OK for: inventory-control-2@0.1.0 want: ^5.6.0
+93 silly placeDep ROOT postcss@ OK for: inventory-control-2@0.1.0 want: ^8.4.0
+94 silly placeDep ROOT prettier@ OK for: inventory-control-2@0.1.0 want: ^3.2.0
+95 silly placeDep ROOT react@ OK for: inventory-control-2@0.1.0 want: ^18.3.0
+96 silly placeDep ROOT react-dom@ OK for: inventory-control-2@0.1.0 want: ^18.3.0
+97 silly placeDep ROOT recharts@ OK for: inventory-control-2@0.1.0 want: ^2.12.0
+98 silly placeDep ROOT tailwind-merge@ OK for: inventory-control-2@0.1.0 want: ^2.2.0
+99 silly placeDep ROOT tailwindcss@ OK for: inventory-control-2@0.1.0 want: ^3.4.0
+100 silly placeDep ROOT typescript@ OK for: inventory-control-2@0.1.0 want: ^5.4.0
+101 silly placeDep ROOT zustand@ OK for: inventory-control-2@0.1.0 want: ^4.5.0
+102 verbose stack Error: request to https://registry.npmjs.org/@auth%2fcore failed: cache mode is 'only-if-cached' but no cached response is available.
+102 verbose stack     at cacheFetch (C:\Program Files\nodejs\node_modules\npm\node_modules\make-fetch-happen\lib\cache\index.js:12:13)
+102 verbose stack     at async fetch (C:\Program Files\nodejs\node_modules\npm\node_modules\make-fetch-happen\lib\fetch.js:98:7)
+102 verbose stack     at async RegistryFetcher.packument (C:\Program Files\nodejs\node_modules\npm\node_modules\pacote\lib\registry.js:90:19)
+102 verbose stack     at async RegistryFetcher.manifest (C:\Program Files\nodejs\node_modules\npm\node_modules\pacote\lib\registry.js:128:23)
+102 verbose stack     at async #fetchManifest (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1227:20)
+102 verbose stack     at async #nodeFromEdge (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1065:19)
+102 verbose stack     at async #buildDepStep (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:929:11)
+102 verbose stack     at async Arborist.buildIdealTree (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:182:7)
+102 verbose stack     at async Promise.all (index 1)
+102 verbose stack     at async Arborist.reify (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:114:5)
+103 error code ENOTCACHED
+104 error request to https://registry.npmjs.org/@auth%2fcore failed: cache mode is 'only-if-cached' but no cached response is available.
+105 silly unfinished npm timer reify 1769257320128
+106 silly unfinished npm timer reify:loadTrees 1769257320129
+107 verbose cwd C:\Users\akira\AICoding\lectures\最終課題\Inventory_Control_2
+108 verbose os Windows_NT 10.0.26200
+109 verbose node v25.1.0
+110 verbose npm  v11.6.2
+111 verbose exit 1
+112 verbose code 1
+113 error A complete log of this run can be found in: C:\Users\akira\AICoding\lectures\最終課題\Inventory_Control_2\.npm\_logs\2026-01-24T12_21_59_603Z-debug-0.log
